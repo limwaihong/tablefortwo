@@ -107,7 +107,7 @@ a:hover {
 
 /* Navigation header */
 .nav-header {
-    margin-bottom: 40px;
+    margin-bottom: 16px;
 }
 
 .studio-title {
@@ -150,6 +150,19 @@ a:hover {
 
 .nav-link.active {
     color: #333;
+}
+
+/* Logo container */
+.logo-container {
+    margin: 16px 0 20px 0; /* 16px top margin for tighter spacing */
+    text-align: left; /* Left aligned instead of center */
+}
+
+.studio-logo {
+    max-width: 100%;
+    width: 100px; /* Scaled up from 75px to 100px */
+    height: auto; /* Let height adjust automatically to maintain original SVG proportions */
+    object-fit: contain;
 }
 
 /* Navigation footer */
@@ -340,5 +353,16 @@ a:hover {
     
     .nav-menu {
         justify-content: flex-start;
+    }
+    
+    /* Logo responsive adjustments for mobile */
+    .logo-container {
+        margin: 15px 0;
+        text-align: left; /* Keep left aligned on mobile */
+    }
+    
+    .studio-logo {
+        width: 50px; /* Half the previous mobile size */
+        height: auto; /* Maintain original proportions on mobile too */
     }
 }
