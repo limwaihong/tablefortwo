@@ -16,7 +16,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log('TABLEFORTWO DESIGN STUDIO loaded successfully');
 
-    // Tab handling for Food Critic subpage
+    // Tab handling for Notes subpage
     const tabLinks = document.querySelectorAll('.tab-link');
     const motionSection = document.getElementById('motion-graphics-resources');
 
